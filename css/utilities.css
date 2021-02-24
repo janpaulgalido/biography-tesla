@@ -1,0 +1,198 @@
+.container {
+	max-width: 80vw;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 0 40px;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.grid3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.d-block {
+	display: block;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+}
+
+hr.hr-faded-side {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(
+		to right,
+		rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.75),
+		rgba(0, 0, 0, 0)
+	);
+	margin: 0 auto;
+	width: 80%;
+}
+
+/* Margins */
+.my-1 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.my-2 {
+	margin: 1.5rem 0;
+}
+.my-3 {
+	margin: 2rem 0;
+}
+.my-4 {
+	margin: 3rem 0;
+}
+.my-5 {
+	margin: 4rem 0;
+}
+
+.mb-1 {
+	margin-bottom: 1rem;
+}
+.mb-2 {
+	margin-bottom: 1.5rem;
+}
+.mb-3 {
+	margin-bottom: 2rem;
+}
+.mb-4 {
+	margin-bottom: 3rem;
+}
+.mb-5 {
+	margin-bottom: 4rem;
+}
+
+.mx-1 {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.m-1 {
+	margin: 1rem;
+}
+.m-2 {
+	margin: 1.5rem;
+}
+.m-3 {
+	margin: 2rem;
+}
+.m-4 {
+	margin: 3rem;
+}
+.m-5 {
+	margin: 4rem;
+}
+
+/* Padding */
+.py-1 {
+	padding: 1rem 0;
+}
+.py-2 {
+	padding: 1.5rem 0;
+}
+.py-3 {
+	padding: 2rem 0;
+}
+.py-4 {
+	padding: 3rem 0;
+}
+.py-5 {
+	padding: 4rem 0;
+}
+
+.px-1 {
+	padding: 0 1rem;
+}
+.px-2 {
+	padding: 0 1.5rem;
+}
+.px-3 {
+	padding: 0 2rem;
+}
+.px-4 {
+	padding: 0 3rem;
+}
+.px-5 {
+	padding: 0 4rem;
+}
+
+.p-1 {
+	padding: 1rem;
+}
+.p-2 {
+	padding: 1.5rem;
+}
+.p-3 {
+	padding: 2rem;
+}
+.p-4 {
+	padding: 3rem;
+}
+.p-5 {
+	padding: 4rem;
+}
+
+/* Text align */
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+/* Text Styling */
+.text-sub {
+	font-weight: 400;
+}
+
+/* shadows */
+
+.shadow-0 {
+	box-shadow: none;
+}
+
+.shadow-1 {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px 0px,
+		rgba(0, 0, 0, 0.2) 0px 3px 10px 0px;
+}
+
+.shadow-2 {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 8px 0px,
+		rgba(0, 0, 0, 0.2) 0px 5px 15px 2px;
+}
+
+.shadow-3 {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 6px 11px 0px,
+		rgba(0, 0, 0, 0.2) 0px 7px 20px 3px;
+}
+
+.shadow-4 {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 6px 14px 0px,
+		rgba(0, 0, 0, 0.2) 0px 10px 30px 4px;
+}
+
+.shadow-5 {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 6px 20px 0px,
+		rgba(0, 0, 0, 0.2) 0px 12px 40px 5px;
+}
