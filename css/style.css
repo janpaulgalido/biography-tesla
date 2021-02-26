@@ -72,11 +72,11 @@ nav h1 {
 }
 
 .navbar a.active {
-	border-bottom: 2px var(--secondary-color) solid;
+	border-bottom: 3px var(--secondary-color) solid;
 }
 
 .navbar a:hover {
-	border-bottom: 2px var(--secondary-color) solid;
+	border-bottom: 3px var(--secondary-color) solid;
 }
 
 .navbar .flex {
@@ -427,6 +427,7 @@ p.text-sub {
 .reference .wrapper {
 	width: 700px;
 }
+
 .reference .wrapper p {
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -458,6 +459,27 @@ footer a {
 
 footer a:hover {
 	color: var(--secondary-color);
+}
+
+/* GALLERY STYLINGS */
+
+.gallery h1 {
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+.gallery .row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+.gallery .column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
 }
 
 /* ANIMATIONS */
